@@ -11,11 +11,9 @@
     <header>
         <h1> Nome da Banda</h1>
         <nav>
-            <ul>
-                <li><a href="#noticias">Notícias</a></li>
-                <li><a href="#shows">Shows</a></li>
-                <li><a href="#loja">Loja</a></li>
-            </ul>
+            <a href="#noticias">Notícias</a>
+            <a href="#shows">Shows</a>
+            <a href="#loja">Loja</a>
         </nav>
     </header>
     <main>
@@ -30,11 +28,16 @@
          </section>
          <!-- Seção de Shows-->
          <section id="shows">
-            <h2>Shows</h2>
-            <ul>
-                <li>10/12/2024- São Paulo, SP</li>
-                <li>20/12/2024 - Rio de Janeiro, RJ</li>
-            </ul>
+            <h2>Shows Futuros</h2>
+            <div class="carousel">
+                <button id="prev">❮</button>
+                <div id="carousel-content">
+                    <div class="slide">Show 1: Cidade A - Data</div>
+                    <div class="slide">Show 2: Cidade B - Data</div>
+                    <div class="slide">Show 3: Cidade C - Data</div>
+                </div>
+                <button id="next">❯</button>
+            </div>
         </section>
 
         <!-- Seção de Loja -->
