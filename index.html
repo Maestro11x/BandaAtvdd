@@ -26,6 +26,15 @@
             </div>
             <button onclick="mostrarMaisNoticias()">Ver mais notícias</button>
          </section>
+         <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Imagem 1">
+                <img src="image2.jpg" alt="Imagem 2">
+                <img src="image3.jpg" alt="Imagem 3">
+                <img src="image4.jpg" alt="Imagem 4">
+            </div>
+        </section>
          <!-- Seção de Shows-->
          <section id="shows">
             <h2>Shows Futuros</h2>
@@ -75,6 +84,36 @@
             <button type="submit">Enviar</button>
         </form>
     </section>    
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="mailto:banda@dominio.com" method="post" enctype="text/plain">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Mensagem:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <section id="loja">
+        <h2>Loja da Banda</h2>
+        <div class="product">
+            <img src="produto1.jpg" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>Preço: R$50,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product">
+            <img src="produto2.jpg" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>Preço: R$70,00</p>
+            <button>Comprar</button>
+        </div>
+    </section>
     <footer>
         <p>&copy; 2024 Nome da Banda. Todos os direitos reservados.</p>
     </footer>
